@@ -23,6 +23,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/app/vendor/semantic.min.css",
               "src/styles.css"
             ],
             "scripts": []
