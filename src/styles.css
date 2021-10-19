@@ -32,7 +32,7 @@ form.form:after {
   color: #9A9A9A
 }
 
-.ui.grid>.row>.column.votes {
+.ui.grid > .row > .column.votes {
   display: flex;
 }
 
