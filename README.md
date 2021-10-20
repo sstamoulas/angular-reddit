@@ -25,3 +25,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Deployment to gh-pages
+
+In the command line, run `ng add angular-cli-ghpages` this uses the command `ngh` for deploying to `gh-pages`.
+Change the `outputPath` in `angular.json` file line 16 to just point to the `dist/` directory.
+In the command line, run `ng build --prod` then `ngh —dir=dist`.
