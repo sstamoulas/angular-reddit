@@ -30,4 +30,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 In the command line, run `ng add angular-cli-ghpages` this uses the command `ngh` for deploying to `gh-pages`.
 Change the `outputPath` in `angular.json` file line 16 to just point to the `dist/` directory.
-In the command line, run `ng build --prod` then `ngh —dir=dist`.
+In the command line, run `ng build --prod` (`in Angular 12 --prod is deprecated just run ng build and prod is default`) then `ngh —dir=dist`.
